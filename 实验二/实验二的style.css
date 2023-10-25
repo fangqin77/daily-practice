@@ -1,0 +1,22 @@
+table{
+    border: solid 2px gray;
+    padding: 10px;
+}
+td{
+    border: solid 2px gray;
+    padding: 10px;
+}
+#video1{
+    text-align: center;
+}
+#wenben{
+    width: calc(100% - 20px);
+    height: 150px;
+    resize: none;
+    padding: 10px;
+    font-size: 1.5em;
+}
+#user{
+    padding: 8px 10px;
+    font-size: 1.2em;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>实验二</title>
+        <link rel="stylesheet" href="实验二的style.css">
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <th colspan="2">
+                    <div>看视频填信息</div>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2" id="video1">
+                    <div><video src="C:\Users\Fangqin\AppData\Local\Temp\d05aad4b-a3ff-49bf-a0fa-4cc36715bbc7_ch04.zip.bc7\mv.mkv" autoplay="autoplay" muted></video></div>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <div>答卷人姓名</div>
+                    <td id="user">
+                    <form>
+                        <input type="text"name="答卷人姓名" placeholder="请输入你的名字">
+                    </form>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>性别</div>
+                </td>
+                <td>
+                    <form>
+                        <input type="radio" name="sex" checked>男
+                        <input type="radio" name="sex">女
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>头像</div>
+                </td>
+                <td>
+                    <form>
+                        <input type="file" name="touxiang">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>剧中出现了那些人物</div>
+                </td>
+                <td>
+                    <form>
+                        <input type="checkbox" name="juese">朗朗
+                        <input type="checkbox" name="juese">莫奈
+                        <input type="checkbox" name="juese">周杰伦
+                        <input type="checkbox" name="juese">贝多芬
+                        <input type="checkbox" name="juese">肖邦
+                        <input type="checkbox" name="juese">杜国璋
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>故事地点</div>
+                </td>
+                <td>
+                    <form>
+                        <select name="didian">
+                            <option>中国</option>
+                            <option>欧洲</option>
+                            <option>美国</option>
+                            <option>印度</option>
+                            <option>其他国家</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>请你描述一下剧情</div>
+                </td>
+                <td>
+                    <form>
+                        <textarea rowspan="30" colspan="40" id="wenben"></textarea>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+            <th colspan="2">
+                <form>
+                    <input type="reset" value="重置" name="re">
+                    <input type="submit" value="提交" name="su">
+                </form>
+            </th>
+            </tr>
+        </table>
+    </body>
+</html>
