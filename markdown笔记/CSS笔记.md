@@ -10,7 +10,7 @@
 
 使用方法：
 
-```html
+```css
 font-family: '仿宋';
 font-family: '黑体','仿宋';
 ```
@@ -27,7 +27,7 @@ html元素字体大小），默认字体大小为16px，请注意，浏览器一
 
 使用方法:
 
-```html
+```css
 font-size:30px;
 font-size:2em;
 font-size:200%;
@@ -48,7 +48,7 @@ font-size:2rem;
 
 使用方法：
 
-```html
+```css
 font-style: italic;
 font-style: oblique;
 ```
@@ -80,7 +80,7 @@ font-style: oblique;
 
 使用方法：
 
-```html
+```css
 font-weight:bold;
 font-weight:700;
 ```
@@ -99,7 +99,7 @@ A组：font-size和font-family，B组：font-style和font-weight，A组的属性
 
 使用方法：
 
-```html
+```css
 font: italic bold 36px '宋体';
 font: italic 700 36px '宋体';
 font: italic bold 36em '宋体';
@@ -120,7 +120,7 @@ font: 36px '宋体';
 
 使用方法：
 
-```html
+```css
 text-indent:2em;
 text-indent:-2em;
 text-indent:20px;
@@ -140,7 +140,7 @@ text-indent:20px;
 
 使用方法：
 
-```html
+```css
 text-align: right;
 ```
 
@@ -154,7 +154,7 @@ text-align: right;
 
 使用方法：
 
-```html
+```css
 text-decoration:underline;
 ```
 
@@ -168,7 +168,7 @@ text-decoration:underline;
 
 使用方法：
 
-```html
+```css
 line-height: 30px;
 line-height: 3em;
 ```
@@ -187,7 +187,7 @@ line-height: 3em;
 
 使用方法：
 
-```html
+```css
 /* 以下都是黑色 */
 color: black;
 color: #000;
@@ -206,7 +206,7 @@ color: rgba(0, 0, 0, 1);
 
 使用方法：
 
-```html
+```css
 a:link {
 color: red;
 }
@@ -243,7 +243,7 @@ rgba相较于rgb加入了alpha通道，表示透明度，透明度取值范围�
 
 使用方法:
 
-```html
+```css
 background-color: black;
 background-color: #000;
 background-color: #000000;
@@ -261,7 +261,7 @@ background-color: rgba(0, 0, 0, 1);
 
 使用方法：
 
-```html
+```css
 background-image: url(../1-1.jpg);
 background-repeat: no-repeat;
 ```
@@ -285,7 +285,7 @@ background-repeat: no-repeat;
 
 使用方法：
 
-```html
+```css
 background-image: url(../1-1.jpg);
 background-repeat: no-repeat;
 background-position: 100px 10px;
@@ -301,7 +301,7 @@ background-position: 100px 10px;
 
 使用方法：
 
-```html
+```css
 /*
 ·
 |
@@ -334,7 +334,7 @@ background: aqua url(../1-1.jpg) no-repeat center;
 
 使用方法：
 
-```html
+```css
 list-style-type: none;
 list-style-type: circle;
 list-style-type: square;
@@ -348,7 +348,7 @@ list-style-type: square;
 
 使用方法：
 
-```html
+```css
 list-style-image: url(../1-2.jpg);
 ```
 
@@ -362,7 +362,7 @@ list-style-image: url(../1-2.jpg);
 
 使用方法：
 
-```html
+```css
 ul {
 list-style-position: inside;
 }
@@ -379,7 +379,7 @@ background-color: #cabfee;
 
 使用方法：
 
-```html
+```css
 list-style: url(../1-2.jpg) inside;
 list-style: circle inside;
 list-style: inside;
