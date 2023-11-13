@@ -110,7 +110,7 @@ font: italic 36px '宋体';
 font: 36px '宋体';
 ```
 
-### 文本样式
+## 文本样式
 
 ### 文本缩进
 
@@ -196,7 +196,7 @@ color: rgb(0, 0, 0);
 color: rgba(0, 0, 0, 1);
 ```
 
-# 超链接样式设置
+## 超链接样式设置
 
 超链接有四种状态：未被访问的超链接(:link)、访问过的超链接(:visited)、鼠标经过的超链接(:hover)、
 
@@ -227,7 +227,9 @@ color: white;
 }
 ```
 
-# 背景样式的设置
+## 背景样式的设置
+
+### 背景颜色
 
 属性：background-color
 
@@ -247,4 +249,139 @@ background-color: #000;
 background-color: #000000;
 background-color: rgb(0, 0, 0);
 background-color: rgba(0, 0, 0, 1);
+```
+
+### 背景重铺
+
+属性：background-repeat
+
+功能：设置背景图像的平铺模式。
+
+![1699858345020](image/CSS笔记/1699858345020.png)
+
+使用方法：
+
+```html
+background-image: url(../1-1.jpg);
+background-repeat: no-repeat;
+```
+
+### 背景定位
+
+属性：background-position
+
+功能：设置图像在背景中的位置；属性值有关键字和长度值两种；请注意，定位的前提是背景重铺设置
+
+为仅显示一次。
+
+1. 关键字：
+
+![1699858440883](image/CSS笔记/1699858440883.png)
+
+
+2. 长度值：长度值是指**距离元素左上角**的距离，**第一个值是水平位置**，**第二个值是垂直位置**。左上角
+
+是 0 0。
+
+使用方法：
+
+```html
+background-image: url(../1-1.jpg);
+background-repeat: no-repeat;
+background-position: 100px 10px;
+/* background-position: center; */
+/* background-position: center bottom; */
+```
+
+### 背景综合属性
+
+属性：background
+
+功能：在一个声明中设置所有背景属性。
+
+使用方法：
+
+```html
+/*
+·
+|
+|--course_20231108
+| |--demo1.html
+|
+|--image
+|--1-1.jpg
+*/
+background: aqua url(../image/1-1.jpg) no-repeat center;
+/*
+·
+|
+|--1-1.jpg
+|--course_20231108
+| |--demo1.html
+*/
+background: aqua url(../1-1.jpg) no-repeat center;
+```
+
+## 列表样式
+
+### 列表标记类型
+
+属性：list-style-type
+
+功能：设置列表项标记的类型。属性值有
+
+![1699859016367](image/CSS笔记/1699859016367.png)
+
+使用方法：
+
+```html
+list-style-type: none;
+list-style-type: circle;
+list-style-type: square;
+```
+
+### 列表标志图象
+
+属性：list-style-image
+
+功能：使用图像来替换列表项的标志。
+
+使用方法：
+
+```html
+list-style-image: url(../1-2.jpg);
+```
+
+### 列表标志位置
+
+属性：list-style-position
+
+功能：设置列表标记的位置；属性值有outside(默认值，标记位于文本的左侧)和inside(标记放置在文
+
+本以内)。
+
+使用方法：
+
+```html
+ul {
+list-style-position: inside;
+}
+li {
+background-color: #cabfee;
+}
+```
+
+### 列表综合属性
+
+属性：list-style
+
+功能：在一个声明中设置所有列表属性
+
+使用方法：
+
+```html
+list-style: url(../1-2.jpg) inside;
+list-style: circle inside;
+list-style: inside;
+list-style: circle;
 ```
