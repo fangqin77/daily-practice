@@ -366,11 +366,11 @@ print("两数之和为：" + str(a+b))
 
 * Python中如何输出数据：print()
 
-  $\circ$print()：将数据打印到命令行中
+  $\circ$ print()：将数据打印到命令行中
 
-  $\circ$print()函数会在数据打印完成后自动打印一个换行符\n
+  $\circ$ print()函数会在数据打印完成后自动打印一个换行符\n
 
-  $\circ$print()格式化输出：
+  $\circ$ print()格式化输出：
 
   ->print("格式化字符串" % (待填入的数据列表))
 
@@ -509,11 +509,11 @@ else:
 
 * 实际开发中，根据实际需求来编写if语句
 
-  $\circ$if分支有且仅能有1个
+  $\circ$ if分支有且仅能有1个
 
-  $\circ$elif分支可以有任意多个 [0, n]
+  $\circ$ elif分支可以有任意多个 [0, n]
 
-  $\circ$else分支可以有0或1个
+  $\circ$ else分支可以有0或1个
 
 ```python
 num = int(input("请输入一个正整数："))
@@ -748,9 +748,9 @@ print(c)
 
 * range()函数
 
-  $\circ$range()函数可以产生一个迭代器对象
+  $\circ$ range()函数可以产生一个迭代器对象
 
-  $\circ$range(start, stop, step)
+  $\circ$ range(start, stop, step)
 
 ```python
 for i in range(1, 101, 1):
